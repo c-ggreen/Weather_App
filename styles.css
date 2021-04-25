@@ -13,7 +13,7 @@ body{
 }
 #containerAll{
     /* border: solid purple; */
-    background-color: #D9DCD6;
+    background: linear-gradient(to right, #4ca1af, #c4e0e5);
     height: 95vh;
     width: 95%;
     margin: 1rem auto;
@@ -32,14 +32,14 @@ body{
         flex-direction: column;
     }
             .locationCity{
-                border: solid pink;
+                /* border: solid pink; */
                 color: white;
                 font-family: 'Arvo', serif;
                 font-size: 4rem;
 
             }
             .icon{
-                border: solid red;
+                /* border: solid red; */
 
             }
 
@@ -53,17 +53,23 @@ body{
         flex-direction: column;
     }
             .tempDegree{
-                border: solid pink;
+                /* border: solid pink; */
                 color: white;
                 font-family: 'Arvo', serif;
                 font-size: 4rem;
 
             }
             .tempDescrip{
-                border: solid red;
+                /* border: solid red; */
                 color: white;
                 font-family: 'Arvo', serif;
                 font-style: italic;
 
 
             }
+    .copywrite{
+        /* border: solid black; */
+        align-self: flex-start;
+        font-family: monospace;
+        font-size: 1rem;
+    }
