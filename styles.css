@@ -21,6 +21,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    cursor: default;
+
 }
     .location{
         /* border: solid yellow; */
