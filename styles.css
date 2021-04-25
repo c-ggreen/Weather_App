@@ -1,0 +1,69 @@
+/* ----------Fonts---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* ----------Styling---------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #F5F6F4;
+}
+#containerAll{
+    /* border: solid purple; */
+    background-color: #D9DCD6;
+    height: 95vh;
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    .location{
+        /* border: solid yellow; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+            .locationCity{
+                border: solid pink;
+                color: white;
+                font-family: 'Arvo', serif;
+                font-size: 4rem;
+
+            }
+            .icon{
+                border: solid red;
+
+            }
+
+    .temperature{
+        /* border: solid green; */
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+            .tempDegree{
+                border: solid pink;
+                color: white;
+                font-family: 'Arvo', serif;
+                font-size: 4rem;
+
+            }
+            .tempDescrip{
+                border: solid red;
+                color: white;
+                font-family: 'Arvo', serif;
+                font-style: italic;
+
+
+            }
