@@ -9,6 +9,6 @@ window.addEventListener('load', ()=>{
         })
     }
     else{
-        alert('Error')
+        alert('Error: Unknown location.')
     }
 })
